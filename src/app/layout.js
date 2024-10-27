@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+      <link rel="icon" href="/icons.ico" />
       <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
       </head>
       <body

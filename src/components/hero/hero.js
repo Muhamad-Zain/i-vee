@@ -26,12 +26,7 @@ import AnimateSee from '@/animation/animateSee/page';
 
 
 export default function Hero({id, name}) {
-
-    // console.log(name);
-    
     const [weddingData, setWeddingData] = useState([])
-    // console.log(weddingData);
-    // const [namaTamu, setNamaTamu] = useState('')
     const [isHidden, setIsHidden] = useState(true)
     const [loading, setLoading] = useState(true)
     const [bgToggle, setBgTogle] = useState('bg-black')
@@ -176,7 +171,7 @@ export default function Hero({id, name}) {
                         </button>
                         <div className='relative w-full'>
                         <div className="fixed -bottom-1 z-20 w-full ">
-                            <div className='border-2 w-[80%]  m-auto relative flex justify-between grid-cols-5 text-4xl text-white  rounded-t-xl'>
+                            <div className='border-2 w-[80%] bg-black bg-opacity-25 m-auto relative flex justify-between grid-cols-5 text-4xl text-white  rounded-t-xl'>
                             <button onClick={() => togleScroll('home')} className='p-2'><ImHome /></button>
                             <button onClick={() => togleScroll('couple')}  className='p-2'><ImInfo /></button>
                             <button onClick={() => togleScroll('date')}  className='p-2'><BiSolidCalendarHeart /></button>
