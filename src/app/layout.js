@@ -24,11 +24,9 @@ export default function RootLayout({ children }) {
       <head>
       <link rel="icon" href="/icons.png" />
       <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
-        {/* <meta property="og:title" content="Judul Undangan" />
-        <meta property="og:description" content="Deskripsi singkat undangan." />
-        <meta property="og:image" content="/icons.png" />
-        <meta property="og:url" content="https://example.com" />
-        <meta property="og:type" content="website" /> */}
+        <meta property="og:image" content="/og-icons.png" />
+        <meta property="og:url" content="https://invitee.com" />
+        <meta property="og:type" content="website" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
