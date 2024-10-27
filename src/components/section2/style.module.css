@@ -2,7 +2,7 @@
     /* background-image: url('/assets/img/couple.png'); */
     /* background-size: cover; */
     height: 100vh;
-    background-color: #ecbf98;
+    background-color: #f3b884;
     width: 100%;
     /* overflow: hidden;
     background-position: center; */
@@ -12,12 +12,12 @@
     background-image: url('/assets/img/couple.png');
     background-size: cover;
     height: 65vh;
-    top: 38vh;
+    top: 35vh;
     /* z-index: 10; */
     /* background-color: black; */
     /* width: 100%; */
     background-position: center;
-    filter:drop-shadow( 2px 6px 2px black);
+    filter:drop-shadow( 2px  2px #0a0a0a);
     /* filter:drop-shadow( 2px 6px 2px black); */
     position: relative;
 }
