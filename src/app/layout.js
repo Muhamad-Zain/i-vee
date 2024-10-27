@@ -22,13 +22,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <link rel="icon" href="/icons.ico" />
+      <link rel="icon" href="/icons.png" />
       <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
-      <meta property="og:title" content="Judul Undangan" />
+        {/* <meta property="og:title" content="Judul Undangan" />
         <meta property="og:description" content="Deskripsi singkat undangan." />
-        <meta property="og:image" content="/icons.ico" />
+        <meta property="og:image" content="/icons.png" />
         <meta property="og:url" content="https://example.com" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" /> */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
