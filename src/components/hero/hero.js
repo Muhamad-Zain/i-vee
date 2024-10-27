@@ -6,15 +6,11 @@ import Page2 from '../section2/page2';
 import { FaEnvelopeOpen } from "react-icons/fa";
 import { fetchWeddingData } from '../firebase/initialFirebase';
 import { GiMusicSpell } from "react-icons/gi";
-import { GiSelfLove } from "react-icons/gi";
 import { ImHome } from "react-icons/im";
 import { ImInfo } from "react-icons/im";
 import { BiSolidCalendarHeart } from "react-icons/bi";
 import { HiMiniGiftTop } from "react-icons/hi2";
 import { SlSpeech } from "react-icons/sl";
-
-
-
 import Page3 from '../section3/page3';
 import Page4 from '../section4/page4';
 import Page5 from '../section5/page5';
@@ -175,7 +171,6 @@ export default function Hero({id, name}) {
                     }
                     <section id='page2' className='relative w-auto h-auto '>
                         <button onClick={toggleMusic} 
-                            // id='bgToggle'
                             className={`w-10 h-10 rounded-full border border-white flex justify-center items-center fixed bottom-16 left-5 z-20 ${bgToggle}`}>
                             <GiMusicSpell className='fill-current text-white rotate-icon' size={25} />
                         </button>
