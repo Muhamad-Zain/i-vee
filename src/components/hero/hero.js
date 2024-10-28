@@ -153,9 +153,9 @@ export default function Hero({id, name}) {
                                     </h2>
                                     <p className="">Kepada Yth.</p>
                                     <h3 className="py-2 text-xl text-white font-bold" style={{ textShadow: '2px 2px black' }}>{name}</h3>
-                                    <button onClick={btnElement} className="bg-slate-950 shadow-md border border-white shadow-slate-300 rounded-md flex justify-center items-center w-1/2 text-white py-1 px-4 mt-4 mx-auto">
-                                        <FaEnvelopeOpen size={15} className='mr-2' />
-                                        Open
+                                    <button onClick={btnElement} className="bg-slate-950 shadow-md border border-white shadow-slate-300 rounded-md flex justify-center items-center  text-white py-1 px-4 mt-4 mx-auto text-md">
+                                        <FaEnvelopeOpen className='fill-current mr-2 ' />
+                                        <h1>Open</h1>
                                     </button>
                                 </div>
                             </AnimateSee>
